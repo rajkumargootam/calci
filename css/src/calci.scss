@@ -1,0 +1,42 @@
+#calculator{
+  width: 70vh;
+  margin: 0 auto;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 300;
+  #result{
+    text-align: right;
+    height: 20vh;
+    font-weight: 400;
+    font-size: 10vh;
+    line-height: 20vh;
+    background-color: lighten(#424242, 70%);
+  }
+  #preview{
+    text-align: right;
+    height: 10vh;
+    font-weight: 400;
+    background-color: lighten(#424242, 60%);
+
+  }
+  #keys{
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    #numbers{
+        background-color: #424242;
+      .key{
+        height: 17.5vh;
+        font-size: 5vh;
+        line-height: 17.5vh;
+      }
+    }
+    #operators{
+        background-color:#636363;
+      .key{
+        height: 14vh;
+        font-size: 4vh;
+        line-height: 14vh;
+      }
+    }
+  }
+}
