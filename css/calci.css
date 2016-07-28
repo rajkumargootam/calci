@@ -14,17 +14,27 @@
     text-align: right;
     height: 10vh;
     font-weight: 400;
+    font-size: 5vh;
+    line-height: 10vh;
     background-color: #dbdbdb; }
   #calculator #keys {
     color: #FFF;
     text-align: center;
     cursor: pointer; }
+    #calculator #keys .key ::selection {
+      background: transparent;
+      /* WebKit/Blink Browsers */ }
+    #calculator #keys .key ::-moz-selection {
+      background: transparent;
+      /* Gecko Browsers */ }
     #calculator #keys #numbers {
       background-color: #424242; }
       #calculator #keys #numbers .key {
         height: 17.5vh;
         font-size: 5vh;
         line-height: 17.5vh; }
+        #calculator #keys #numbers .key:hover {
+          background-color: #353535; }
     #calculator #keys #operators {
       background-color: #636363; }
       #calculator #keys #operators .key {
